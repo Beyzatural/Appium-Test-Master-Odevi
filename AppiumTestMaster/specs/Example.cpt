@@ -1,0 +1,46 @@
+Created by testinium on 1/31/2022
+
+This is a concept file with following syntax for each concept.
+
+//# Sayfada <text> alanını kontrol et
+//* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elementi bul ve <text> alanını kontrol et
+
+# Alışverişe başla butonuna bas
+* id "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" li elemente tıkla
+
+//# Anasayfada <text> alanını kontrol et
+//* id "com.ozdilek.ozdilekteyim:id/edtSearch" li elementi bul ve <text> alanını kontrol et
+
+# Kategorilere tıkla
+* id "com.ozdilek.ozdilekteyim:id/nav_categories" li elemente tıkla
+
+# Kategorilerden kadın elementine tıkla
+* xpath "//android.widget.RelativeLayout[@index=1]" li elemente tıkla
+
+# Kadın kategorilerinden pantolona tıkla
+* xpath "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem']/android.widget.TextView[@text=\"Pantolon\"]" li elemente tıkla
+
+# İki defa scroll et
+* iki defa scroll et
+* iki defa scroll et
+
+# Favoriler butonuna tıklanır
+* id "com.ozdilek.ozdilekteyim:id/relLayFav" li elemente tıkla
+
+# e-posta alanına <text> değerini yaz
+* id "com.ozdilek.ozdilekteyim:id/etEposta" li elemente tıkla
+* id "com.ozdilek.ozdilekteyim:id/etEposta" li elemente bul ve <text> değerini yaz
+
+# Password  alanına <text> değerini yaz
+* id "com.ozdilek.ozdilekteyim:id/etPassword" li elemente bul ve <text> değerini yaz
+
+# Login alanına tıkla
+* id "com.ozdilek.ozdilekteyim:id/btnLogin" li elemente tıkla
+
+# Geri butonuna tıkla
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* id "com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+
+# Seçilen ürünü sepete ekle
+* id "com.ozdilek.ozdilekteyim:id/recyclerSizeList" li elemente tıkla
+* id "com.ozdilek.ozdilekteyim:id/ivAddCart" li elemente tıkla
